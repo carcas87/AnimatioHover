@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.card{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+.card .cont-info{
+ overflow: hidden;
+ margin-left: -10px;   
+}
+.card .info{
+    position: relative;
+    background: rgb(233, 31, 31);
+    padding: 10px 10px 10px 50px;
+    border-radius: 10px;
+    transition:  .7s;
+    z-index: -10;
+    left: -280px;
+}
+.card .cont-foto:hover ~ .cont-info .info{
+left: -20px;
+}
+
+.card1{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+.card1 .cont-info{
+ overflow: hidden;
+ margin-left: -10px;   
+}
+.card1 .info{
+    position: relative;
+    background: rgb(27, 53, 199);
+    padding: 10px 10px 10px 50px;
+    border-radius: 10px;
+    transition:  .7s;
+    z-index: -10;
+    left: -280px;
+}
+.card1 .cont-foto:hover ~ .cont-info .info{
+left: -20px;
+}
+
+.card2{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+.card2 .cont-info{
+ overflow: hidden;
+ margin-left: -10px;   
+}
+.card2 .info{
+    position: relative;
+    background: rgb(66, 214, 21);
+    padding: 10px 10px 10px 50px;
+    border-radius: 10px;
+    transition:  .7s;
+    z-index: -10;
+    left: -280px;
+}
+.card2 .cont-foto:hover ~ .cont-info .info{
+left: -20px;
+}
